@@ -34,19 +34,11 @@
 			<Add option="-pedantic" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="cedulas.c">
-			<Option compilerVar="CC" />
-		</Unit>
+		<Unit filename="cedulas.cpp" />
 		<Unit filename="cedulas.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="milionario.c">
-			<Option compilerVar="CC" />
-		</Unit>
+		<Unit filename="milionario.cpp" />
 		<Unit filename="milionario.h" />
-		<Unit filename="relatorio.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="relatorio.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

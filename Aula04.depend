@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1520652791 source:c:\users\marlene\aula04\main.cpp
+	<iostream>
+	<cmath>
+	"milionario.h"
+	"cedulas.h"
+
+1520648193 c:\users\marlene\aula04\milionario.h
+
+1520650599 source:c:\users\marlene\aula04\milionario.cpp
+
+1520604030 c:\users\marlene\aula04\cedulas.h
+
+1520604030 source:c:\users\marlene\aula04\cedulas.cpp
+
