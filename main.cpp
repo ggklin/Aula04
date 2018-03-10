@@ -1,11 +1,11 @@
-/* 1 - O usuário informa o valor do seu salário e suas despesas mensais. O programa calcula o valor que sobra e diz quanto
-tempo (em anos) será necessário poupar para se tornar milionário.
-
-2 - O usuário digita 10 valores numéricos inteiros e o programa mostra um relatório com cada valor diferente e o número de
-vezes que o mesmo apareceu. Use vetor.
-
-3 - O usuário informa um valor (em reais). Calcular e exibir quantas cédulas de 100, 50, 20, 10, 5, 2 e 1 são necessárias.
-*/
+/**
+  * @file main.cpp
+  * @brief Arquivo principal do programa
+  * @author George Franklin
+  * @since 08/03/2018
+  * @date 10/03/2018
+  * @sa https://github.com/ggklin/Aula04
+  */
 
 #include <iostream>
 using std::cin;
@@ -20,13 +20,14 @@ using std::endl;
 
 void milionario_exibicao();
 
+/** @brief Funcao principal que mostra as opcoes disponiveis e permite escolher uma delas */
 int main()
 {
     int opcao = 0;
     int valor = 0;
 
     cout << "Escolha uma opcao:" << endl;
-    cout << "1 - Quantos anos sera necessario poupar para ser milionario." << endl;
+    cout << "1 - Quantos anos serao necessarios poupar para se tornar milionario." << endl;
     cout << "2 - Relatorio que mostra apenas valores diferentes e quantas vezes cada um apareceu." << endl;
     cout << "3 - Quantas cedulas de cada tipo sao necessarias para ter um certo valor." << endl;
 
@@ -53,6 +54,7 @@ int main()
     return 0;
 }
 
+/** @brief Funcao que mostra quantos anos sao necessarios poupar para se tornar milionario */
 void milionario_exibicao()
 {
     int salario = 0;
