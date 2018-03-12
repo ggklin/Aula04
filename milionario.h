@@ -18,4 +18,7 @@
   */
 int milionario(int salario, int despesas);
 
+/** @brief Funcao que mostra quantos anos sao necessarios poupar para se tornar milionario */
+void milionario_exibicao();
+
 #endif

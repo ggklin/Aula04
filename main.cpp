@@ -3,7 +3,7 @@
   * @brief Arquivo principal do programa
   * @author George Franklin & Lucas Gabriel
   * @since 08/03/2018
-  * @date 10/03/2018
+  * @date 12/03/2018
   * @sa https://github.com/ggklin/Aula04
   */
 
@@ -11,8 +11,6 @@
 using std::cin;
 using std::cout;
 using std::endl;
-
-#include <cmath>
 
 #include "milionario.h"
 // #include "relatorio.h"
@@ -62,40 +60,4 @@ int main()
     while (opcao!=0);
 
     return 0;
-}
-
-/** @brief Funcao que mostra quantos anos sao necessarios poupar para se tornar milionario */
-void milionario_exibicao()
-{
-    int salario = 0;
-    int despesas = 0;
-    int anos = 0;
-    do
-    {
-        cout << "Digite o valor do seu salario: R$";
-        cin >> salario;
-        cout << "Digite suas despesas mensais: R$";
-        cin >> despesas;
-
-        if (salario <= 0 || despesas < 0)
-        {
-            cout << "Valores informados sao invalidos." << endl << endl;
-        }
-    }
-    while(salario <= 0 || despesas < 0);
-
-    anos = round((float)milionario(salario, despesas)/12);
-
-    if (anos == 0)
-    {
-        cout << "Falta menos de um ano para voce se tornar milionario."<< endl;
-    }
-    else if (anos == 1)
-    {
-        cout << "Falta " << anos << " ano para voce se tornar milionario."<< endl;
-    }
-    else
-    {
-        cout << "Faltam " << anos << " anos para voce se tornar milionario."<< endl;
-    }
 }
