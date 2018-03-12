@@ -1,6 +1,6 @@
 /**
   * @file cedulas.cpp
-  * @brief Implementação da função para contar cédulas
+  * @brief Implementação da função para contar cédulas dado um valor determinado
   * @author Lucas Gabriel
   * @since 08/03/2018
   * @date 12/03/2018

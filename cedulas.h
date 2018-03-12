@@ -1,6 +1,6 @@
 /**
   * @file cedulas.h
-  * @brief Interface da função de contar cédulas
+  * @brief Interface da função para contar as cédulas
   * @author Lucas Gabriel
   * @since 08/03/2018
   * @date 12/03/2018
