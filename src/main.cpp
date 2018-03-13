@@ -13,7 +13,7 @@ using std::cout;
 using std::endl;
 
 #include "../include/milionario.h"
-// #include "relatorio.h"
+#include "../include/relatorio.h"
 #include "../include/cedulas.h"
 
 void milionario_exibicao();
@@ -46,6 +46,11 @@ int main()
             milionario_exibicao();
             cout << "----------------------------------------------------------" << endl;
             break;
+	case 2:
+		cout << "Digite uma quantidade de números: ";
+		cin >> valor;
+		relatorio(valor);
+		break;
         case 3:
             cout << "Digite um valor: R$";
             cin >> valor;
