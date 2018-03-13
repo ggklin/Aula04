@@ -7,16 +7,16 @@ $(PROG) : $(OBJS)
 	$(CC) $(OBJS) -o $(PROG)
 
 main.o :
-	$(CC) $(CPPFLAGS) -c main.cpp
+	$(CC) $(CPPFLAGS) -c src/main.cpp
 
 milionario.o :
-	$(CC) $(CPPFLAGS) -c milionario.cpp
+	$(CC) $(CPPFLAGS) -c src/milionario.cpp
 
 relatorio.o :
-	$(CC) $(CPPFLAGS) -c relatorio.cpp
+	$(CC) $(CPPFLAGS) -c src/relatorio.cpp
 
 cedulas.o :
-	$(CC) $(CPPFLAGS) -c cedulas.cpp
+	$(CC) $(CPPFLAGS) -c src/cedulas.cpp
 
 clean:
 	rm -f *.o
